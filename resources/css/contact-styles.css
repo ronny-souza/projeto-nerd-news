@@ -1,0 +1,126 @@
+.contact .container {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.text-elements-contact {
+    margin-bottom: 5%;
+}
+
+.text-elements-contact h3 {
+    font-size: 25px;
+    color: var(--text);
+}
+
+.text-elements-contact p {
+    font-size: 16px;
+    max-width: 60%;
+    margin-top: 3%;
+    color: var(--gray);
+}
+
+.form-group {
+    margin-bottom: 3%;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--text);
+    font-size: 15px;
+}
+
+.contact input, textarea, button {
+    border: none;
+    width: 20rem;
+    height: 2rem;
+    background: var(--text);
+    padding: 1%;
+    border-radius: 3px;
+}
+
+.contact textarea {
+    height: 5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.contact input:active, input:focus{
+    border: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    font-family: 'Inter', sans-serif;
+}
+
+.contact .container .form-img img {
+    width: 300px;
+}
+
+.contact button {
+    background: var(--text);
+    color: var(--white);
+    cursor: pointer;
+    height: 2.5rem;
+}
+
+.contact button:hover {
+    background: #0d100e;
+    color: var(--text);
+    transition: background .5s;
+}
+
+@media screen and (max-width: 952px) {
+
+    body {
+        margin: 3%;
+    }
+
+    .contact .contact .form-img img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    .contact .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+
+    .contact .container .form-img img {
+        display: block;
+        display: none;
+    }
+
+    .form-contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-contact .text-elements-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact input, textarea, button {
+        height: 3rem;
+    }
+
+    .contact button {
+        height: 3rem;
+    }
+
+    .form-group {
+        margin-top: 5%;
+    }
+}

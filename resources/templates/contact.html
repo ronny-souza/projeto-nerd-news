@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Nerd News - Início</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/default-styles.css">
+    <link rel="stylesheet" href="../css/header-styles.css">
+    <link rel="stylesheet" href="../css/contact-styles.css">
+    <!-- External Links -->
+    <script src="https://kit.fontawesome.com/681e669534.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Roboto:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><a href="index.html">Nerd News</a></label>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="news.html">Notícias</a></li>
+            <li><a href="contact.html">Entre em contato</a></li>
+        </ul>
+    </nav>
+    <section class="contact">
+        <div class="container">
+            <div class="form-contact">
+                <div class="text-elements-contact">
+                    <h3>Viu alguma notícia que nós não temos ainda? Envie-nos!</h3>
+                    <p>Sua participação é de grande importância! Obrigado, e que a força esteja com você!</p>
+                </div>
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" placeholder="Digite seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="40" rows="10"
+                            placeholder="Deixe uma mensagem..."></textarea>
+                    </div>
+                    <div class="button-submit">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="form-img">
+                <img src="../img/contact.svg" alt="Mensagem">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

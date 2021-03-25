@@ -1,0 +1,36 @@
+
+section {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-elements h1 {
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.buttons a{
+    background: var(--text);
+    padding: 15px 40px;
+}
+
+.buttons a:hover {
+    background: #0d100e;
+    color: var(--text);
+}
+
+.buttons a.news {
+    border-radius: 30px; 
+}
+
+.buttons a.contact {
+    border-radius:  50px;
+    margin-left: 20px;
+}
+
+.buttons a.contact i {
+    margin-right: 10px;
+}
+
+.image-element img {
+    width: 300px;
+}
